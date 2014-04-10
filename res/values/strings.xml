@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tweet Now</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="send">Tweet</string>
+	<string name="retry">Try again</string>
+	<string name="logout">Logout</string>
+	<string name="welcome">Welcome!</string>
+	<string name="back_soon">Back soon!</string>
+	<string name="login">Login</string>
+	<string name="too_long">Too long tweet</string>
+	<string name="voice_unavailable">Sorry, voice recognition isn\'t available</string>
+	<string name="no_connection">There\'s no Internet connection, please check!</string>
+	<string name="no_results">There wasn\'t results, please try again!</string>
+	<string name="twt_posted">Tweet posted!</string>
+	<string name="twt_no_posted">Tweet wasn\'t posted!</string>
+	<string name="locale">en</string>
+	<string name="tweet_hint">Please wait your tweet here..</string>
+	<string name="about">About de Tweet Now!</string>
+	<string name="development">Development</string>
+	<string name="design">Design</string>
+	<string name="daniel">Daniel García Alvarado</string>
+	<string name="diego">Diego Matus Perdomo</string>
+	<string name="close">Close</string>
+</resources>

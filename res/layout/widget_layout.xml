@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dip"
+    android:gravity="center"
+    android:background="#00ffffff">
+    
+	<ImageButton
+	    android:background="@drawable/circle_button"
+        android:id="@+id/update"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"
+        android:contentDescription="@string/hello_world"
+        android:src="@drawable/logofinal"
+        android:scaleType="centerInside"
+        android:layout_margin="4dip"/>
+</LinearLayout>

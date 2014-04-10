@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+	<EditText 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="@string/tweet_hint"
+	    android:lines="6"
+	    android:maxLines="8"
+	    android:minLines="5"
+	    android:inputType="textMultiLine"
+	    android:layout_margin="5dp"
+	    android:gravity="left|top"
+	    android:id="@+id/tweet"/>
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/send"
+	    android:textColor="#ffffff"
+	    android:background="@drawable/login_button"
+	    android:text="@string/send"
+	    android:layout_margin="5dp"/>
+	<Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/retry"
+	    android:textColor="#1dcaff"
+	    android:background="@drawable/retry_button"
+	    android:text="@string/retry"
+	    android:layout_margin="5dp"/>
+</LinearLayout>
